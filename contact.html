@@ -1,0 +1,95 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Контакты</title>
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<meta name="format-derection" content="telephone=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- Подключаем шрифты -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/contact.css">
+	</head>
+<body>
+	<div class="wrapper">
+		<div class="container header__box">
+			<ul class="menu">
+				<li><a href="index.html"><img src="image/main.svg" alt="main"></a></li>
+				<li><a href="#" target="_blank"><img src="image/contacts.svg" alt="contacts"></a></li>
+			</ul>
+		</div>
+		<div class="header__logo">
+			<img class="header__image" src="image/contact-image/bg.png" alt="bg">
+			<div class="header__text">
+				<h2 class="header__subtitle">Contact Us</h2>
+				<p class="header__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+		</div>
+		<div class="container form__box">
+			<div class="form__contacts">
+				<img src="image/contact-image/contacts.png" alt="contacts">
+				<h4 class="form__subtitle form__subtitle_margin">Address</h4>
+				<p class="form__paragraph">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+				<h4 class="form__subtitle">Phone</h4>
+				<ul>
+					<li><img src="image/contact-image/phone.svg" alt=""> +7-812-7313-4321</li>
+					<li><img src="image/contact-image/phone.svg" alt=""> +7-817-0000-1234</li>
+				</ul>
+				<h4 class="form__subtitle">Online service</h4>
+				<ul>
+					<li><img src="image/contact-image/globe.svg" alt=""> <a href="www.site.com" class="form__link">www.site.com</a></li>
+					<li><img src="image/contact-image/message.svg" alt=""> <a href="hello.site@gmail.com" class="form__link">hello.site@gmail.com</a></li>
+				</ul>
+			</div>
+			<form action="#" class="form__message">
+				<div class="form__input">
+					<h4 class="form__title">Send us message</h4>
+					<div class="form__area">
+						<p>Full Name</p>
+						<input class="form__blank" type="text" placeholder="Your Name">
+						<p>Email</p>
+						<input class="form__blank" type="email" placeholder="Your Email">
+						<p>Message</p> 
+						<textarea class="form__blank form__blank_width" placeholder="Your Message" cols="30" rows="5"></textarea>
+						<a href="#" class="form__btn">submit</a>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="container map">
+			<script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac8690b9c8ec46ef9f8abb3b6bad01a88a647e60303d0c928737496c121646f24&amp;width=100%25&amp;height=485&amp;lang=ru_RU&amp;scroll=true">
+			</script>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__text">
+						<h3 class="footer__subtitle">Intersted to woek with our team?</h3>
+						<p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<a href="#" class="footer__btn">Let’s Talk</a>
+				</div>
+			</div>
+			<div class="footer__line"></div>
+			<div class="container">
+				<div class="footer__bottom">
+					<ol class="footer__info">
+						<li class="text__footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li class="text__footer">+7-812-7313-4321</li>
+						<li class="text__footer"><a href="marchcassa@gmail.com">hello.site@gmail.com</a></li>
+					</ol>
+					<div class="footer__copy">
+						<p>2021 &copy; All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
